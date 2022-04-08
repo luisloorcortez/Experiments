@@ -1,0 +1,50 @@
+2021-12-18 01:31:34,621 (7fc983d4c848) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: c43dc02 (Wed Dec 08 14:16:51 UTC 2021)
+2021-12-18 01:31:34,622 (7fc983d4c848) :  DEBUG (core:361) - Using the elevated policy
+2021-12-18 01:31:34,623 (7fc983d4c848) :  DEBUG (core:450) - Starting runtime component.
+2021-12-18 01:31:34,628 (7fc983d4c848) :  DEBUG (core:450) - Starting caching component.
+2021-12-18 01:31:34,629 (7fc983d4c848) :  DEBUG (core:450) - Starting data component.
+2021-12-18 01:31:34,630 (7fc983d4c848) :  DEBUG (core:450) - Starting networking component.
+2021-12-18 01:31:34,638 (7fc983d4c848) :  DEBUG (networking:261) - Loaded HTTP cookies
+2021-12-18 01:31:34,662 (7fc983d4c848) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2021-12-18 01:31:34,664 (7fc983d4c848) :  DEBUG (core:450) - Starting localization component.
+2021-12-18 01:31:34,664 (7fc983d4c848) :  INFO (localization:409) - Setting the default locale to en-us
+2021-12-18 01:31:34,665 (7fc983d4c848) :  DEBUG (core:450) - Starting messaging component.
+2021-12-18 01:31:34,665 (7fc983d4c848) :  DEBUG (core:450) - Starting debugging component.
+2021-12-18 01:31:34,666 (7fc983d4c848) :  DEBUG (core:450) - Starting services component.
+2021-12-18 01:31:34,667 (7fc983d4c848) :  DEBUG (core:450) - Starting myplex component.
+2021-12-18 01:31:34,668 (7fc983d4c848) :  DEBUG (core:450) - Starting notifications component.
+2021-12-18 01:31:34,704 (7fc980cb5b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.thetvdb'
+2021-12-18 01:31:34,904 (7fc983d4c848) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.thetvdb in namespace 'metadata'
+2021-12-18 01:31:34,933 (7fc983d4c848) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2021-12-18 01:31:35,364 (7fc980ad6b38) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2021-12-18 01:31:35,365 (7fc983d4c848) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2021-12-18 01:31:35,368 (7fc983d4c848) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2021-12-18 01:31:35,369 (7fc983d4c848) :  DEBUG (core:150) - Finished starting framework core
+2021-12-18 01:31:35,370 (7fc983d4c848) :  DEBUG (core:560) - Loading plug-in code
+2021-12-18 01:31:35,443 (7fc980ad6b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2021-12-18 01:31:35,446 (7fc980a89b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2021-12-18 01:31:35,478 (7fc980a89b38) :  DEBUG (core:538) - Machine identifier is 60630771a5d0018f3381e1622e019e58a1c14b9f
+2021-12-18 01:31:35,480 (7fc980a89b38) :  DEBUG (core:539) - Server version is 1.25.2.5319-c43dc0277
+2021-12-18 01:31:35,496 (7fc980ad6b38) :  DEBUG (services:362) - Loaded services
+2021-12-18 01:31:35,522 (7fc980aacb38) :  DEBUG (services:438) - No shared code to load
+2021-12-18 01:31:36,053 (7fc983d4c848) :  DEBUG (core:566) - Finished loading plug-in code
+2021-12-18 01:31:36,054 (7fc983d4c848) :  DEBUG (agentkit:1132) - Creating new agent class called TVDBAgent
+2021-12-18 01:31:36,056 (7fc983d4c848) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'fr', 'zh', 'sv', 'no', 'da', 'fi', 'nl', 'de', 'it', 'es', 'pl', 'hu', 'el', 'tr', 'ru', 'he', 'ja', 'pt', 'cs', 'ko', 'sl', 'hr'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'TheTVDB'}]
+2021-12-18 01:31:36,071 (7fc983d4c848) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3ClRoZVRWREJzNApuYW1lMQpzNwpUVl9TaG93MjMKczIKZW5zMgpmcnMyCnpoczIKc3ZzMgpub3MyCmRhczIKZmlzMgpubHMyCmRlczIKaXRzMgplc3MyCnBsczIKaHVzMgplbHMyCnRyczIKcnVzMgpoZXMyCmphczIKcHRzMgpjc3MyCmtvczIKc2xzMgpocnIwCg__'
+2021-12-18 01:31:55,727 (7fc983d4c848) :  INFO (core:611) - Started plug-in
+2021-12-18 01:31:55,729 (7fc983d4c848) :  DEBUG (socketinterface:160) - Starting socket server
+2021-12-18 01:31:55,732 (7fc983d4c848) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2021-12-18 01:31:55,732 (7fc983d4c848) :  INFO (socketinterface:184) - Socket server started on port 43465
+2021-12-18 01:31:55,733 (7fc983d4c848) :  INFO (pipeinterface:25) - Entering run loop
+2021-12-18 01:31:55,734 (7fc983d4c848) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2021-12-18 01:31:55,738 (7fc983d4c848) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2021-12-18 01:31:55,741 (7fc983d4c848) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 151 bytes
+2021-12-18 01:31:55,782 (7fc97fff5b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb
+2021-12-18 01:31:55,806 (7fc97fff5b38) :  CRITICAL (runtime:493) - Exception matching route for path "/" (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-c43dc0277/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 464, in match_route
+    raise Framework.exceptions.FrameworkException("No route found matching '%s'" % path)
+FrameworkException: No route found matching '/'
+
+2021-12-18 01:31:55,807 (7fc97fff5b38) :  ERROR (runtime:846) - Could not find route matching /:/plugins/com.plexapp.agents.thetvdb
+2021-12-18 01:31:55,808 (7fc97fff5b38) :  DEBUG (runtime:88) - Sending packed state data (107 bytes)
+2021-12-18 01:31:55,809 (7fc97fff5b38) :  DEBUG (runtime:924) - Response: [404] NoneType, 0 bytes

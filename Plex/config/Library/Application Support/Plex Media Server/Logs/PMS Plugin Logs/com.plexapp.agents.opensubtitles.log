@@ -1,0 +1,47 @@
+2021-12-18 01:31:57,178 (7f84fe107848) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: c43dc02 (Wed Dec 08 14:16:51 UTC 2021)
+2021-12-18 01:31:57,182 (7f84fe107848) :  DEBUG (core:361) - Using the standard policy
+2021-12-18 01:31:57,183 (7f84fe107848) :  DEBUG (core:450) - Starting runtime component.
+2021-12-18 01:31:57,188 (7f84fe107848) :  DEBUG (core:450) - Starting caching component.
+2021-12-18 01:31:57,189 (7f84fe107848) :  DEBUG (core:450) - Starting data component.
+2021-12-18 01:31:57,190 (7f84fe107848) :  DEBUG (core:450) - Starting networking component.
+2021-12-18 01:31:57,192 (7f84fe107848) :  DEBUG (networking:265) - No cookie jar found
+2021-12-18 01:31:57,281 (7f84fe107848) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2021-12-18 01:31:57,285 (7f84fe107848) :  DEBUG (core:450) - Starting localization component.
+2021-12-18 01:31:57,285 (7f84fe107848) :  INFO (localization:409) - Setting the default locale to en-us
+2021-12-18 01:31:57,287 (7f84fe107848) :  DEBUG (localization:427) - Loaded en strings
+2021-12-18 01:31:57,287 (7f84fe107848) :  DEBUG (core:450) - Starting messaging component.
+2021-12-18 01:31:57,297 (7f84fe107848) :  DEBUG (core:450) - Starting debugging component.
+2021-12-18 01:31:57,298 (7f84fe107848) :  DEBUG (core:450) - Starting services component.
+2021-12-18 01:31:57,299 (7f84fe107848) :  DEBUG (core:450) - Starting myplex component.
+2021-12-18 01:31:57,300 (7f84fe107848) :  DEBUG (core:450) - Starting notifications component.
+2021-12-18 01:31:57,400 (7f84fb070b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.opensubtitles'
+2021-12-18 01:31:57,657 (7f84fe107848) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.opensubtitles in namespace 'metadata'
+2021-12-18 01:31:57,693 (7f84fe107848) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2021-12-18 01:31:57,748 (7f84fe107848) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2021-12-18 01:31:57,749 (7f84faed5b38) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2021-12-18 01:31:57,750 (7f84fe107848) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2021-12-18 01:31:57,768 (7f84fae8fb38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2021-12-18 01:31:57,770 (7f84faed5b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2021-12-18 01:31:57,786 (7f84fae8fb38) :  DEBUG (core:538) - Machine identifier is 60630771a5d0018f3381e1622e019e58a1c14b9f
+2021-12-18 01:31:57,788 (7f84fae8fb38) :  DEBUG (core:539) - Server version is 1.25.2.5319-c43dc0277
+2021-12-18 01:31:57,790 (7f84fe107848) :  DEBUG (core:150) - Finished starting framework core
+2021-12-18 01:31:57,791 (7f84fe107848) :  DEBUG (core:560) - Loading plug-in code
+2021-12-18 01:31:57,824 (7f84faed5b38) :  DEBUG (services:362) - Loaded services
+2021-12-18 01:31:57,839 (7f84faeb2b38) :  DEBUG (services:438) - No shared code to load
+2021-12-18 01:31:57,949 (7f84fe107848) :  DEBUG (core:566) - Finished loading plug-in code
+2021-12-18 01:31:57,964 (7f84fe107848) :  DEBUG (agentkit:1132) - Creating new agent class called OpenSubtitlesAgentMovies
+2021-12-18 01:31:57,965 (7f84fe107848) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'OpenSubtitles.org'}]
+2021-12-18 01:31:57,983 (7f84fe107848) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMyCmNvbS5wbGV4YXBwLmFnZW50cy5vcGVuc3VidGl0bGVzczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTcKT3BlblN1YnRpdGxlcy5vcmdzNApuYW1lMQpzNQpNb3ZpZTEKczIzCmNvbS5wbGV4YXBwLmFnZW50cy5pbWRiMQpzMgp4bnIwCg__'
+2021-12-18 01:31:58,004 (7f84fe107848) :  DEBUG (agentkit:1132) - Creating new agent class called OpenSubtitlesAgentTV
+2021-12-18 01:31:58,005 (7f84fe107848) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.imdb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'OpenSubtitles.org'}, {'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'OpenSubtitles.org'}]
+2021-12-18 01:31:58,024 (7f84fe107848) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxMApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMyCmNvbS5wbGV4YXBwLmFnZW50cy5vcGVuc3VidGl0bGVzczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTcKT3BlblN1YnRpdGxlcy5vcmdzNApuYW1lMQpzNQpNb3ZpZTEKczIzCmNvbS5wbGV4YXBwLmFnZW50cy5pbWRiMQpzMgp4bjEwCnI3CnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI4CnMxNApjb250cmlidXRlc190b3I5CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE3Ck9wZW5TdWJ0aXRsZXMub3JnczQKbmFtZTEKczcKVFZfU2hvdzEKczI2CmNvbS5wbGV4YXBwLmFnZW50cy50aGV0dmRiMQpzMgp4bnIwCg__'
+2021-12-18 01:31:58,048 (7f84fe107848) :  INFO (datakit:118) - No default dictionary file
+2021-12-18 01:31:58,064 (7f84fe107848) :  INFO (datakit:131) - Saved the dictionary file
+2021-12-18 01:31:58,065 (7f84fe107848) :  INFO (core:611) - Started plug-in
+2021-12-18 01:31:58,066 (7f84fe107848) :  DEBUG (socketinterface:160) - Starting socket server
+2021-12-18 01:31:58,068 (7f84fe107848) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2021-12-18 01:31:58,069 (7f84fe107848) :  INFO (socketinterface:184) - Socket server started on port 45273
+2021-12-18 01:31:58,069 (7f84fe107848) :  INFO (pipeinterface:25) - Entering run loop
+2021-12-18 01:31:58,070 (7f84fe107848) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2021-12-18 01:31:58,079 (7f84fe107848) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2021-12-18 01:31:58,080 (7f84fe107848) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 157 bytes

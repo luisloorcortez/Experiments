@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "80:80/tcp"
+      - "443:443/tcp"
+    environment:
+      TZ: 'America/Ecuador/Guayaquil'
+      WEBPASSWORD: 'plastika'
+    # Volumes store your data between container upgrades
+    volumes:
+       - 'C:\Users\Lu\Documents\Docker\docker-compose\Pi-hole\etc-dnsmasq.d:/etc/pihole/'
+       - 'C:\Users\Lu\Documents\Docker\docker-compose\Pi-hole\etc-pihole:/etc/dnsmasq.d/'
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
+    # Recommended but not required (DHCP needs NET_ADMIN)
+    # https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped

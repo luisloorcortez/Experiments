@@ -1,0 +1,22 @@
+Dec 18, 2021 01:57:47.445 [0x7f68c20cfb38] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container (LinuxServer.io) x86_64 - build: 
+Dec 18, 2021 01:57:47.447 [0x7f68c20cfb38] INFO - Linux version: 5.10.60.1-microsoft-standard-WSL2 (#1 SMP Wed Aug 25 23:20:18 UTC 2021), language: en-US
+Dec 18, 2021 01:57:47.447 [0x7f68c20cfb38] INFO - Processor Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz
+Dec 18, 2021 01:57:47.448 [0x7f68c20cfb38] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.25.2.5319-c43dc0277 32600
+Dec 18, 2021 01:57:47.420 [0x7f68c3b78848] INFO - [I] broker_t::start...
+Dec 18, 2021 01:57:47.425 [0x7f68c3b78848] INFO - [I] device_manager_t::init.
+Dec 18, 2021 01:57:47.426 [0x7f68c3b78848] INFO - [I] device_manager_t::init. Initialize provider manager
+Dec 18, 2021 01:57:47.426 [0x7f68c3b78848] INFO - [I] device_manager_t::init. Initialize all device auxes
+Dec 18, 2021 01:57:47.426 [0x7f68c3b78848] INFO - [I] dvb_device_factory_t::get_aux_list
+Dec 18, 2021 01:57:47.426 [0x7f68c3b78848] INFO - [I] tvbutler_aux_t::init
+Dec 18, 2021 01:57:47.429 [0x7f68c3b78848] INFO - [I] web_server_t::start. Starting web server on port 32600
+Dec 18, 2021 01:57:55.460 [0x7f68c1e6cb38] INFO - [I] web_service_t::process_device_discovery
+Dec 18, 2021 01:57:55.460 [0x7f68c1e6cb38] INFO - [I] device_reactor_t::get_device_list ()
+Dec 18, 2021 01:57:57.466 [0x7f68c1e6cb38] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Dec 18, 2021 01:57:57.888 [0x7f68c1e6cb38] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Dec 18, 2021 01:57:57.895 [0x7f68c1e6cb38] INFO - [I] onetv_factory::DeviceGetListEx >>
+Dec 18, 2021 01:57:57.895 [0x7f68c1e6cb38] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Dec 18, 2021 01:58:59.953 [0x7f68c3b78848] INFO - Received SIGINT: Interrupt from keyboard.
+Dec 18, 2021 01:58:59.972 [0x7f68c3b78848] INFO - [I] device_manager_t::term
+Dec 18, 2021 01:58:59.972 [0x7f68c3b78848] INFO - [I] device_manager_t::term. Stop all devices
+Dec 18, 2021 01:58:59.972 [0x7f68c3b78848] INFO - [I] device_manager_t::term. Shut down all device auxes
+Dec 18, 2021 01:58:59.972 [0x7f68c3b78848] INFO - [I] tvbutler_aux_t::term

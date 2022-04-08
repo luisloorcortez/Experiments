@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  plex:
+    image: lscr.io/linuxserver/plex
+    container_name: plex
+    ports:
+      - "32400:32400"
+    environment:
+      - VERSION=docker
+      - PLEX_CLAIM=claim-5VTLzeedqsRqhZasyD2T #optional
+    volumes:
+      - L:\Descargas\Jdownloader:/config
+   
+    restart: unless-stopped
