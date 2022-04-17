@@ -1,4 +1,4 @@
-# Simple Docker LEMP stack
+# Simple Docker LEMP
 
 ## What's inside
 - Nginx
