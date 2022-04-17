@@ -12,7 +12,7 @@ services:
       - "443:443/tcp"
     environment:
       TZ: 'America/Ecuador/Guayaquil'
-      WEBPASSWORD: 'test'
+      WEBPASSWORD: 'plastika'
     # Volumes store your data between container upgrades
     volumes:
        - 'C:\Users\Lu\Documents\Docker\docker-compose\Pi-hole\etc-dnsmasq.d:/etc/pihole/'
